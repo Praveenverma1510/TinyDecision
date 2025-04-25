@@ -23,7 +23,6 @@ const DecisionCard = ({ decision, onUpdate }) => {
     setIsEditing(false);
   };
 
-  // Format date using Moment.js, with fallback for invalid dates
   const formattedDate = decision.date && moment(decision.date).isValid()
     ? moment(decision?.date).format('MMMM D, YYYY')
     : 'Unknown Date';

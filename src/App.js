@@ -11,7 +11,7 @@ const App = () => {
     cons: '',
     isMade: false,
   });
-  const [filter, setFilter] = useState('all'); // new
+  const [filter, setFilter] = useState('all');
   const [isDarkMode, setIsDarkMode] = useState(false);
 
   useEffect(() => {
